@@ -1,0 +1,45 @@
+<html>
+<head>
+   <title>Perceptron</title>
+   <link href="style.css" media="all" rel="stylesheet">
+</head>
+<body>
+   <div id="perceptron-graph"></div>
+   <div class="info clearfix">
+      <div id="inputs">
+         <p>
+         <label for="pointCount">Veri Sayısı</label>
+         <input type="text" id="point-count" value="20" />
+         </p>
+         <p>
+         <label for="pointCount">Iterasyon Hızı(ms)</label>
+         <input type="text" id="step-speed" value="500" />
+         </p>
+         <p>
+            <button id="create-points">Random Uygun Veri oluştur</button>
+         </p>
+         <p>
+            <button id="train">Eğit</button>
+         </p>
+         <p>
+            <button id="again">Sıfırla</button>
+         </p>
+      </div>
+      <div id="iterations"></div>
+   </div>
+   <div class="clearfix"></div>
+   <table id="created-points">
+      <thead>
+         <th>X</th>
+         <th>Y</th>
+         <th>Tip</th>
+      </thead>
+      <tbody></tbody>
+   </table>
+   <script src="lib/jquery-1.11.3.min.js"></script>
+   <script src="lib/d3.v3.min.js" charset="utf-8"></script>
+   <script src="graph.js" charset="utf-8"></script>
+   <script src="perceptron.js" charset="utf-8"></script>
+   <script src="app.js" charset="utf-8"></script>
+</body>
+</html>

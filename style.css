@@ -1,0 +1,45 @@
+body {
+   font: 12px sans-serif;
+}
+.clearfix {
+   clear: both;
+}
+#perceptron-graph{
+   text-align: center;
+}
+#iterations{
+   float:right;
+}
+#inputs{
+   float:left;
+}
+.info{
+   width: 1100px;
+   height: auto;
+   clear: both;
+   margin: auto;
+}
+.axis path,
+.axis line {
+   fill: none;
+   shape-rendering: crispEdges;
+}
+.axis g line, .axis g path {
+   stroke: #000;
+}
+.blue {
+   fill: steelblue;
+   stroke: #000;
+}
+.green {
+   fill: green;
+   stroke: #000;
+}
+.red {
+   fill: red;
+   stroke: #000;
+}
+.yellow {
+   fill: yellow;
+   stroke: #000;
+}
